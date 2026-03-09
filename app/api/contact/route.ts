@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
         },
         body: JSON.stringify({
           sender: { name: 'coachdavidjones.com', email: 'hello@thevoiceofcash.com' },
-          to: [{ email: 'coachdavidjones@gmail.com', name: 'David Jones' }],
+          to: [{ email: 'cash@thevoiceofcash.com', name: 'Voice of Cash' }],
           replyTo: { email, name },
           subject: `New inquiry from ${name}${company ? ` @ ${company}` : ''}`,
           htmlContent: `
